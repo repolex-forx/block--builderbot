@@ -1,0 +1,104 @@
+[2026-10-01T09:03:34Z] === ENRICH ITERATION 1 START | repo=block/builderbot sha=68208726 ===
+[2026-10-01T09:03:34Z] [iter=1] PHASE START: enrich repo=block/builderbot sha=68208726 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/68208726-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/68208726c78839c9cd5f266f1400ae211567f199.nq.gz
+[2026-10-01T09:03:34Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-10-01T09:04:25Z] [iter=1] AST store loaded triples=3706993 load_secs=49 mem_mb=960 MB
+[2026-10-01T09:04:25Z] [iter=1] Step 2: Finding LSP targets mem_mb=960 MB
+[2026-10-01T09:04:29Z] [iter=1] LSP targets found call_sites=36620 imports=682 extends=2 implements=6 secs=4
+[2026-10-01T09:04:30Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=960 MB
+[2026-10-01T09:04:46Z] [iter=1] Position index built positions=246514 nodes_with_types=300744 secs=16 mem_mb=960 MB
+[2026-10-01T09:04:46Z] [iter=1] Step 3: Starting LSP resolution mem_mb=960 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T09:04:46Z] [iter=1] Resolving target type target_type=call_site count=36620
+[2026-10-01T09:04:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.3 files_done=0 resolved=0 errors=0 current=apps/penpal/frontend/src/components/FindBar.test.tsx
+[2026-10-01T09:06:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=1 resolved=11 errors=86 current=apps/staged/src/lib/cache.test.ts
+[2026-10-01T09:10:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=2 resolved=199 errors=306 current=apps/staged/src/lib/features/sessions/acpTranscript.ts
+[2026-10-01T09:12:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=3 resolved=313 errors=382 current=apps/penpal/frontend/src/hooks/useSSE.test.ts
+[2026-10-01T09:13:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.1 files_done=4 resolved=337 errors=445 current=apps/staged/src/lib/features/doctor/doctor.test.ts
+[2026-10-01T09:15:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.2 files_done=5 resolved=338 errors=551 current=apps/penpal/frontend/src/pages/FilePage.tsx
+[2026-10-01T09:17:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.9 files_done=6 resolved=384 errors=635 current=apps/staged/src/lib/features/sessions/acpTranscript.test.ts
+[2026-10-01T09:22:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.8 files_done=7 resolved=422 errors=885 current=apps/staged/src/lib/transport.ts
+[2026-10-01T09:23:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.7 files_done=8 resolved=471 errors=935 current=apps/staged/src/lib/features/sessions/toolCallViewModel.test.ts
+[2026-10-01T09:26:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.9 files_done=9 resolved=514 errors=1096 current=apps/staged/src/lib/stores/projectState.svelte.ts
+[2026-10-01T09:27:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.8 files_done=11 resolved=538 errors=1138 current=apps/staged/src/lib/listeners/sessionStatusListener.test.ts
+[2026-10-01T09:31:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.0 files_done=12 resolved=585 errors=1353 current=apps/staged/src/lib/features/sessions/sessionLogin.test.ts
+[2026-10-01T09:34:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.0 files_done=13 resolved=600 errors=1509 current=apps/penpal/e2e/tests/anchor-stability.spec.ts
+[2026-10-01T09:35:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.8 files_done=14 resolved=707 errors=1547 current=apps/penpal/frontend/src/pages/RecentPage.test.tsx
+[2026-10-01T09:38:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.3 files_done=16 resolved=720 errors=1725 current=apps/staged/src/lib/features/doctor/versionReadout.test.ts
+[2026-10-01T09:40:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.7 files_done=17 resolved=742 errors=1797 current=packages/diff-viewer/src/lib/utils/diffKeyboard.ts
+[2026-10-01T09:40:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.2 files_done=18 resolved=755 errors=1826 current=apps/staged/src/lib/features/projects/projectFilters.test.ts
+[2026-10-01T09:43:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.3 files_done=19 resolved=761 errors=1984 current=apps/penpal/frontend/src/hooks/useProjectSort.test.ts
+[2026-10-01T09:44:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.3 files_done=20 resolved=782 errors=2034 current=packages/diff-viewer/src/lib/utils/diffModalHelpers.test.ts
+[2026-10-01T09:45:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=42.1 files_done=21 resolved=806 errors=2076 current=apps/staged/src/lib/features/sessions/sessionModalHelpers.test.ts
+[2026-10-01T09:46:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.3 files_done=22 resolved=812 errors=2137 current=apps/staged/src/lib/shared/focusAtEnd.ts
+[2026-10-01T09:48:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.7 files_done=26 resolved=955 errors=2205 current=apps/staged/src/lib/features/agents/acpPickerKeyboard.test.ts
+[2026-10-01T09:49:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.1 files_done=27 resolved=977 errors=2276 current=apps/penpal/frontend/src/components/rehypeCommentHighlights.test.ts
+[2026-10-01T09:55:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.5 files_done=28 resolved=1002 errors=2554 current=packages/diff-viewer/src/lib/utils/diffViewerHelpers.inlineDiff.test.ts
+[2026-10-01T09:56:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.5 files_done=29 resolved=1016 errors=2608 current=apps/staged/src/lib/features/sessions/authRecovery.test.ts
+[2026-10-01T09:57:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=53.5 files_done=30 resolved=1037 errors=2656 current=apps/staged/src/lib/commands.ts
+[2026-10-01T10:00:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=56.8 files_done=31 resolved=1106 errors=2826 current=packages/diff-viewer/src/lib/state/reviewState.test.ts
+[2026-10-01T10:01:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=58.3 files_done=33 resolved=1133 errors=2905 current=apps/staged/src/lib/stores/prState.svelte.ts
+[2026-10-01T10:03:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=59.7 files_done=35 resolved=1148 errors=2976 current=apps/penpal/frontend/src/utils/comments.test.ts
+[2026-10-01T10:03:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=60.4 files_done=36 resolved=1173 errors=3010 current=apps/staged/src/lib/features/actions/actionGroups.test.ts
+[2026-10-01T10:04:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.2 files_done=37 resolved=1190 errors=3049 current=apps/penpal/frontend/src/components/CommentsPanel.tsx
+[2026-10-01T10:05:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.8 files_done=38 resolved=1221 errors=3080 current=apps/staged/src/lib/features/sessions/noteIndicators.test.ts
+[2026-10-01T10:06:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=62.6 files_done=39 resolved=1221 errors=3121 current=apps/staged/src/lib/features/sessions/pathDisplayRoots.ts
+[2026-10-01T10:09:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=65.9 files_done=41 resolved=1269 errors=3290 current=apps/staged/src/lib/features/projects/workspaceLifecycle.test.ts
+[2026-10-01T10:10:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.1 files_done=44 resolved=1321 errors=3348 current=apps/staged/src/lib/features/branches/branchCardHelpers.ts
+[2026-10-01T10:12:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=68.9 files_done=46 resolved=1435 errors=3440 current=apps/staged/src/lib/features/actions/actionRunner.test.ts
+[2026-10-01T10:13:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=70.0 files_done=47 resolved=1435 errors=3496 current=apps/staged/src/lib/listeners/sessionStatusListener.ts
+[2026-10-01T10:14:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=70.6 files_done=48 resolved=1480 errors=3526 current=apps/staged/src/lib/features/diff/diffViewerCommentState.test.ts
+[2026-10-01T10:15:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=71.4 files_done=50 resolved=1491 errors=3569 current=packages/diff-viewer/src/lib/state/scrollController.svelte.ts
+[2026-10-01T10:16:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=72.4 files_done=52 resolved=1591 errors=3619 current=apps/staged/src/lib/features/sessions/sessionModalHelpers.ts
+[2026-10-01T10:16:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.0 files_done=53 resolved=1643 errors=3649 current=apps/staged/src/lib/features/actions/processOutput.test.ts
+[2026-10-01T10:19:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=75.5 files_done=54 resolved=1683 errors=3775 current=apps/staged/src/lib/features/notes/noteRefresh.test.ts
+[2026-10-01T10:19:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=76.0 files_done=55 resolved=1683 errors=3803 current=apps/staged/src/lib/features/actions/repoActionsBulk.test.ts
+[2026-10-01T10:20:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=76.8 files_done=56 resolved=1690 errors=3843 current=apps/penpal/e2e/helpers/markdown-generator.ts
+[2026-10-01T10:22:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=78.4 files_done=58 resolved=1740 errors=3927 current=apps/penpal/e2e/tests/find-in-page.spec.ts
+[2026-10-01T10:22:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=79.3 files_done=60 resolved=1793 errors=3973 current=apps/staged/src/lib/services/prPollingService.test.ts
+[2026-10-01T10:24:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=81.4 files_done=62 resolved=1810 errors=4078 current=apps/penpal/e2e/tests/sse-refresh.spec.ts
+[2026-10-01T10:26:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=82.8 files_done=64 resolved=1817 errors=4150 current=apps/penpal/frontend/src/hooks/useTabs.test.ts
+[2026-10-01T10:28:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=85.2 files_done=65 resolved=1827 errors=4273 current=apps/staged/src/lib/features/diff/reviewState.svelte.ts
+[2026-10-01T10:29:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=85.8 files_done=67 resolved=1862 errors=4301 current=apps/staged/src/lib/components/ui/dialog/dialogResize.test.ts
+[2026-10-01T10:31:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=87.5 files_done=68 resolved=1907 errors=4391 current=apps/staged/src/lib/features/settings/acpConfigPrefs.test.ts
+[2026-10-01T10:31:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=88.3 files_done=69 resolved=1907 errors=4431 current=apps/staged/src/lib/features/projects/projectActions.svelte.ts
+[2026-10-01T10:32:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=89.0 files_done=72 resolved=1932 errors=4469 current=apps/staged/src/lib/components/ui/dialog/dialogWidth.svelte.ts
+[2026-10-01T10:34:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=90.5 files_done=76 resolved=1992 errors=4543 current=packages/diff-viewer/src/lib/state/reviewState.svelte.ts
+[2026-10-01T10:34:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=91.0 files_done=77 resolved=2022 errors=4569 current=apps/penpal/frontend/src/pages/InReviewPage.test.tsx
+[2026-10-01T10:35:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=91.8 files_done=79 resolved=2058 errors=4609 current=apps/staged/src/lib/features/projects/subpathSuggestions.test.ts
+[2026-10-01T10:35:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=92.4 files_done=80 resolved=2058 errors=4638 current=apps/staged/src/lib/listeners/cacheInvalidationListener.test.ts
+[2026-10-01T10:37:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=93.5 files_done=81 resolved=2063 errors=4693 current=apps/staged/src/lib/features/sessions/pathDisplayRoots.test.ts
+[2026-10-01T10:37:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=94.2 files_done=83 resolved=2133 errors=4729 current=apps/staged/src/lib/features/branches/moveBranchTarget.ts
+[2026-10-01T10:38:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=94.9 files_done=86 resolved=2144 errors=4767 current=apps/staged/src/lib/features/agents/agent.test.ts
+[2026-10-01T10:39:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=95.5 files_done=89 resolved=2155 errors=4795 current=apps/staged/src/lib/features/actions/actionRunner.svelte.ts
+[2026-10-01T10:40:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=96.6 files_done=92 resolved=2235 errors=4851 current=packages/diff-viewer/src/lib/utils/diffSearch.ts
+[2026-10-01T10:42:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=98.4 files_done=96 resolved=2276 errors=4946 current=apps/staged/src/lib/features/timeline/reviewState.test.ts
+[2026-10-01T10:42:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=99.1 files_done=97 resolved=2276 errors=4978 current=apps/staged/src/lib/features/notes/noteMarkdown.ts
+[2026-10-01T10:43:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=100.0 files_done=103 resolved=2341 errors=5026 current=apps/staged/src/lib/shared/textHighlight.ts
+[2026-10-01T10:44:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=100.6 files_done=106 resolved=2378 errors=5056 current=apps/staged/src/lib/shared/markdown/diagramRendering.ts
+[2026-10-01T10:44:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=101.2 files_done=111 resolved=2408 errors=5085 current=apps/staged/src/lib/features/timeline/sessionFailureCopy.test.ts
+[2026-10-01T10:45:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=101.7 files_done=114 resolved=2409 errors=5113 current=apps/staged/src/lib/shared/viewport.svelte.ts
+[2026-10-01T10:45:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=102.3 files_done=118 resolved=2440 errors=5142 current=apps/differ/vite.config.ts
+[2026-10-01T10:46:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=102.9 files_done=122 resolved=2444 errors=5170 current=apps/staged/src/lib/features/sessions/pipelineDuration.ts
+[2026-10-01T10:48:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=104.8 files_done=138 resolved=2489 errors=5185 current=apps/staged/src-tauri/src/actions/commands.rs
+[2026-10-01T11:04:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=121.1 files_done=143 resolved=5317 errors=5985 current=apps/staged/src-tauri/src/web_server.rs
+[2026-10-01T11:06:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=123.0 files_done=147 resolved=5670 errors=6070 current=crates/summarize/src/auth.rs
+[2026-10-01T11:07:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=123.5 files_done=148 resolved=5789 errors=6088 current=apps/staged/src-tauri/src/acp_tools.rs
+[2026-10-01T11:07:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=124.3 files_done=160 resolved=6060 errors=6127 current=crates/acp-client/src/driver/response_completion.rs
+[2026-10-01T11:08:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=125.1 files_done=171 resolved=6575 errors=6166 current=apps/staged/src-tauri/src/note_commands.rs
+[2026-10-01T11:10:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=126.7 files_done=179 resolved=6750 errors=6241 current=apps/staged/src-tauri/src/store/mod.rs
+[2026-10-01T11:10:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=127.2 files_done=191 resolved=6905 errors=6263 current=apps/differ/src-tauri/src/main.rs
+[2026-10-01T11:11:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=128.2 files_done=198 resolved=6934 errors=42911 current=apps/staged/scripts/update-node-runtime-lock.mjs
+[2026-10-01T11:12:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=129.2 files_done=200 resolved=6977 errors=42958 current=apps/staged/scripts/test-image-tool-results.mjs
+[2026-10-01T11:13:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=129.8 files_done=203 resolved=7026 errors=42991 current=apps/penpal/frontend/tailwind.config.js
+[2026-10-01T11:13:27Z] [iter=1] Target type resolved target_type=call_site resolved=7026 errors=42991 secs=7721 mem_mb=960 MB
+[2026-10-01T11:13:27Z] [iter=1] Resolving target type target_type=import_statement count=682
+[2026-10-01T11:13:52Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=130.3 files_done=134 resolved=263 errors=0 current=crates/acp-client/src/driver.rs
+[2026-10-01T11:14:27Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=130.9 files_done=160 resolved=316 errors=0 current=apps/staged/src-tauri/src/actions/commands.rs
+[2026-10-01T11:14:50Z] [iter=1] Target type resolved target_type=import_statement resolved=335 errors=0 secs=84 mem_mb=960 MB
+[2026-10-01T11:14:50Z] [iter=1] Resolving target type target_type=extends_clause count=2
+[2026-10-01T11:14:52Z] [iter=1] Target type resolved target_type=extends_clause resolved=2 errors=0 secs=1 mem_mb=960 MB
+[2026-10-01T11:14:52Z] [iter=1] Resolving target type target_type=implements_clause count=6
+[2026-10-01T11:15:03Z] [iter=1] HEARTBEAT target_type=implements_clause elapsed_min=131.5 files_done=1 resolved=4 errors=0 current=crates/builderbot-actions/src/detector.rs
+[2026-10-01T11:15:12Z] [iter=1] Target type resolved target_type=implements_clause resolved=6 errors=0 secs=20 mem_mb=960 MB
+[2026-10-01T11:16:18Z] [iter=1] Step 5: Writing final enrichment file triples=185023
+[2026-10-01T11:16:20Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/68208726c78839c9cd5f266f1400ae211567f199.nq.gz size_kb=4559
+[2026-10-01T11:16:20Z] [iter=1] PHASE END: enrich elapsed_s=7965 elapsed_min=132.8 total_triples=185023
