@@ -83,6 +83,12 @@
       "git:hexsha": "cbb4456dcaac9b1ecdcb16869bda6a2648d50f4e",
       "repolex:parseStatus": "pending",
       "git:tagName": "v0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/block/builderbot/commit/580e49c4edd213b0cda532c7fd7e6baeb19ba2dc",
+      "git:hexsha": "580e49c4edd213b0cda532c7fd7e6baeb19ba2dc",
+      "repolex:parseStatus": "metadata_complete",
+      "git:tagName": "main"
     }
   ]
 }
