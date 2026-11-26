@@ -1,0 +1,25 @@
+[2026-11-26T10:42:22Z] === ENRICH ITERATION 4 START | repo=block/builderbot sha=a62f4a86 ===
+[2026-11-26T10:42:22Z] [iter=4] PHASE START: enrich repo=block/builderbot sha=a62f4a86 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a62f4a86-enrich-iter-004.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a62f4a8638b996a9e94afa5e0d7864ff229d82ff.nq.gz
+[2026-11-26T10:42:22Z] [iter=4] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-26T10:43:22Z] [iter=4] AST store loaded triples=5898700 load_secs=58 mem_mb=963 MB
+[2026-11-26T10:43:22Z] [iter=4] Step 2: Finding LSP targets mem_mb=963 MB
+[2026-11-26T10:43:31Z] [iter=4] LSP targets found call_sites=60046 imports=1203 extends=5 implements=9 secs=9
+[2026-11-26T10:43:33Z] [iter=4] Loaded checkpoint partial graph triples=32172
+[2026-11-26T10:43:33Z] [iter=4] Primed enclosing-def cache from persisted triples entries=426
+[2026-11-26T10:43:36Z] [iter=4] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=963 MB
+[2026-11-26T10:44:17Z] [iter=4] Position index built positions=388407 nodes_with_types=476479 secs=41 mem_mb=1256 MB
+[2026-11-26T10:44:17Z] [iter=4] Step 3: Starting LSP resolution mem_mb=1256 MB already_completed_types=[] already_completed_files=28
+[2026-11-26T10:44:17Z] [iter=4] Resolving target type target_type=call_site count=60046
+[2026-11-26T10:44:20Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=2.0 files_done=0 resolved=0 errors=0 current=apps/penpal/frontend/src/components/Layout.tsx
+[2026-11-26T10:51:29Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=9.1 files_done=1 resolved=331 errors=0 current=apps/penpal/e2e/helpers/markdown-generator.ts
+[2026-11-26T10:52:22Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=10.0 files_done=2 resolved=391 errors=0 current=apps/penpal/frontend/src/components/Layout.test.tsx
+[2026-11-26T10:58:09Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=15.8 files_done=3 resolved=563 errors=0 current=apps/staged/src/lib/shared/markdown/diagramZoom.test.ts
+[2026-11-26T10:59:04Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=16.7 files_done=4 resolved=599 errors=0 current=apps/staged/src/lib/features/projects/workspaceLifecycle.svelte.ts
+[2026-11-26T11:00:53Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=18.5 files_done=5 resolved=743 errors=0 current=apps/staged/src/lib/commands.test.ts
+[2026-11-26T11:06:45Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=24.4 files_done=6 resolved=876 errors=0 current=apps/staged/src/lib/features/branches/branchSessionQueue.ts
+[2026-11-26T11:08:39Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=26.3 files_done=8 resolved=1042 errors=0 current=apps/staged/src/lib/features/agents/acpPickerKeyboard.test.ts
+[2026-11-26T11:11:22Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=29.0 files_done=9 resolved=1135 errors=0 current=apps/staged/src/lib/features/sessions/toolCallViewModel.ts
+[2026-11-26T11:12:38Z] [iter=4] CHECKPOINT TRIGGERED elapsed_min=30.3 files_completed=37 new_files_this_iter=9 mem_mb=1266 MB
+[2026-11-26T11:12:38Z] [iter=4] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/a62f4a8638b996a9e94afa5e0d7864ff229d82ff.nq.gz triples=43339
+[2026-11-26T11:12:38Z] [iter=4] Checkpoint written, exiting with code 7
+[2026-11-26T11:12:38Z] [iter=4] PHASE END: enrich (checkpointed) elapsed_s=1816 elapsed_min=30.3 files_completed=37
