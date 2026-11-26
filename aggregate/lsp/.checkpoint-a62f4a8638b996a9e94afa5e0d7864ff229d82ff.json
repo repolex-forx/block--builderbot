@@ -2,19 +2,30 @@
   "commit_sha": "a62f4a8638b996a9e94afa5e0d7864ff229d82ff",
   "completed_files": [
     "apps/penpal/e2e/tests/review-workflow.spec.ts",
+    "apps/penpal/frontend/src/components/CommentsPanel.tsx",
     "apps/penpal/frontend/src/components/InstallToolsModal.test.tsx",
     "apps/penpal/frontend/src/components/MermaidSelection.tsx",
+    "apps/penpal/frontend/src/components/rehypeCommentHighlights.test.ts",
     "apps/penpal/frontend/src/pages/FilePage.test.tsx",
+    "apps/penpal/frontend/src/utils/comments.test.ts",
     "apps/staged/src/lib/cache.test.ts",
     "apps/staged/src/lib/commands.ts",
     "apps/staged/src/lib/features/actions/actionRunner.svelte.ts",
     "apps/staged/src/lib/features/actions/processOutput.test.ts",
+    "apps/staged/src/lib/features/branches/BranchCardSessionManager.svelte.ts",
+    "apps/staged/src/lib/features/branches/branchSessionLaunch.svelte.ts",
     "apps/staged/src/lib/features/branches/moveBranchTarget.test.ts",
+    "apps/staged/src/lib/features/projects/projectActions.test.ts",
     "apps/staged/src/lib/features/projects/projectDeleteSafety.test.ts",
     "apps/staged/src/lib/features/projects/projectFilters.svelte.ts",
+    "apps/staged/src/lib/features/projects/projectFilters.test.ts",
+    "apps/staged/src/lib/features/sessions/acpTranscript.test.ts",
+    "apps/staged/src/lib/features/sessions/pathDisplayRoots.ts",
     "apps/staged/src/lib/features/settings/preferences.svelte.ts",
+    "apps/staged/src/lib/listeners/sessionStatusListener.ts",
     "apps/staged/src/lib/shared/utils.ts",
     "packages/diff-viewer/src/lib/utils/diffModalHelpers.ts",
+    "packages/diff-viewer/src/lib/utils/highlighter.ts",
     "packages/diff-viewer/src/lib/utils/inlineDiff.test.ts",
     "packages/diff-viewer/src/lib/utils/structuralHeaders.test.ts",
     "packages/diff-viewer/src/lib/utils/structuralHeaders.ts"
@@ -25,7 +36,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a62f4a8638b996a9e94afa5e0d7864ff229d82ff.nq.gz",
     "call_sites": 60046,
     "import_statements": 1203,
-    "call_targets_resolved": 2146,
+    "call_targets_resolved": 3273,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -39,5 +50,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1812
+  "elapsed_seconds": 1805
 }
