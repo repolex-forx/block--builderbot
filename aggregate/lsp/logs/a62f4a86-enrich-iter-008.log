@@ -1,0 +1,41 @@
+[2026-11-26T12:51:51Z] === ENRICH ITERATION 8 START | repo=block/builderbot sha=a62f4a86 ===
+[2026-11-26T12:51:51Z] [iter=8] PHASE START: enrich repo=block/builderbot sha=a62f4a86 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a62f4a86-enrich-iter-008.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a62f4a8638b996a9e94afa5e0d7864ff229d82ff.nq.gz
+[2026-11-26T12:51:51Z] [iter=8] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-26T12:53:09Z] [iter=8] AST store loaded triples=5898700 load_secs=76 mem_mb=963 MB
+[2026-11-26T12:53:09Z] [iter=8] Step 2: Finding LSP targets mem_mb=963 MB
+[2026-11-26T12:53:16Z] [iter=8] LSP targets found call_sites=60046 imports=1203 extends=5 implements=9 secs=7
+[2026-11-26T12:53:20Z] [iter=8] Loaded checkpoint partial graph triples=89670
+[2026-11-26T12:53:20Z] [iter=8] Primed enclosing-def cache from persisted triples entries=1460
+[2026-11-26T12:53:23Z] [iter=8] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=963 MB
+[2026-11-26T12:53:50Z] [iter=8] Position index built positions=388407 nodes_with_types=476479 secs=27 mem_mb=1390 MB
+[2026-11-26T12:53:50Z] [iter=8] Step 3: Starting LSP resolution mem_mb=1390 MB already_completed_types=[] already_completed_files=110
+[2026-11-26T12:53:50Z] [iter=8] Resolving target type target_type=call_site count=60046
+[2026-11-26T12:53:51Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=2.0 files_done=0 resolved=0 errors=0 current=apps/staged/src/lib/features/diff/diffViewerCommentState.test.ts
+[2026-11-26T12:55:40Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=3.8 files_done=2 resolved=63 errors=0 current=apps/penpal/frontend/src/api.ts
+[2026-11-26T12:57:15Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=5.4 files_done=3 resolved=172 errors=0 current=apps/staged/src/lib/shared/markdown/diagramFormats.test.ts
+[2026-11-26T12:58:37Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=4 resolved=221 errors=0 current=apps/penpal/e2e/anchor-stability/serve-dashboard.ts
+[2026-11-26T13:00:39Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=8.8 files_done=6 resolved=305 errors=0 current=apps/penpal/e2e/anchor-stability/orchestrate.ts
+[2026-11-26T13:01:22Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=9.5 files_done=8 resolved=362 errors=0 current=apps/staged/src/lib/listeners/pageLifecycleListener.test.ts
+[2026-11-26T13:03:12Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=11.3 files_done=9 resolved=470 errors=0 current=apps/penpal/e2e/tests/view-tracking.spec.ts
+[2026-11-26T13:05:00Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=13.2 files_done=12 resolved=527 errors=0 current=apps/staged/src/lib/features/sessions/noteIndicators.ts
+[2026-11-26T13:05:44Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=13.9 files_done=14 resolved=601 errors=0 current=apps/differ/src/lib/commands.ts
+[2026-11-26T13:07:13Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=15.4 files_done=16 resolved=655 errors=0 current=packages/diff-viewer/src/lib/state/searchState.svelte.ts
+[2026-11-26T13:07:47Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=15.9 files_done=19 resolved=716 errors=0 current=apps/staged/src/lib/transport.test.ts
+[2026-11-26T13:08:56Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=17.1 files_done=20 resolved=763 errors=0 current=apps/staged/src/lib/shared/markdown/renderMarkdown.test.ts
+[2026-11-26T13:11:06Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=19.2 files_done=21 resolved=837 errors=0 current=packages/diff-viewer/src/lib/state/commentAutosave.test.ts
+[2026-11-26T13:13:04Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=21.2 files_done=22 resolved=903 errors=0 current=apps/staged/src/lib/listeners/cacheInvalidationListener.ts
+[2026-11-26T13:13:48Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=21.9 files_done=24 resolved=979 errors=0 current=apps/staged/src/lib/features/sessions/pipelineDuration.ts
+[2026-11-26T13:14:39Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=22.8 files_done=26 resolved=1061 errors=0 current=apps/staged/src/lib/stores/projectRunActions.svelte.ts
+[2026-11-26T13:15:22Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=23.5 files_done=28 resolved=1100 errors=0 current=apps/staged/src/lib/cache.ts
+[2026-11-26T13:16:42Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=24.8 files_done=29 resolved=1187 errors=0 current=apps/penpal/frontend/src/components/FileMenu.tsx
+[2026-11-26T13:17:38Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=25.8 files_done=30 resolved=1233 errors=0 current=apps/penpal/frontend/src/components/MarkdownViewer.tsx
+[2026-11-26T13:18:17Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=26.4 files_done=31 resolved=1299 errors=0 current=apps/staged/src/lib/features/timeline/reviewState.test.ts
+[2026-11-26T13:19:15Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=27.4 files_done=32 resolved=1331 errors=0 current=packages/diff-viewer/src/lib/utils/diffViewerHelpers.ts
+[2026-11-26T13:19:53Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=28.0 files_done=34 resolved=1393 errors=0 current=apps/staged/src/lib/shared/textHighlight.ts
+[2026-11-26T13:20:30Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=28.6 files_done=38 resolved=1494 errors=0 current=apps/staged/src/lib/features/actions/altKey.svelte.ts
+[2026-11-26T13:21:06Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=29.2 files_done=40 resolved=1526 errors=0 current=apps/staged/src/lib/stores/pullState.svelte.ts
+[2026-11-26T13:21:44Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=29.9 files_done=42 resolved=1553 errors=0 current=apps/penpal/frontend/src/components/ContextMenu.tsx
+[2026-11-26T13:21:54Z] [iter=8] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=152 new_files_this_iter=42 mem_mb=1403 MB
+[2026-11-26T13:21:54Z] [iter=8] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/a62f4a8638b996a9e94afa5e0d7864ff229d82ff.nq.gz triples=104289
+[2026-11-26T13:21:55Z] [iter=8] Checkpoint written, exiting with code 7
+[2026-11-26T13:21:55Z] [iter=8] PHASE END: enrich (checkpointed) elapsed_s=1802 elapsed_min=30.0 files_completed=152
