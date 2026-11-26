@@ -1,0 +1,33 @@
+{
+  "commit_sha": "a62f4a8638b996a9e94afa5e0d7864ff229d82ff",
+  "completed_files": [
+    "apps/penpal/frontend/src/components/InstallToolsModal.test.tsx",
+    "apps/staged/src/lib/cache.test.ts",
+    "apps/staged/src/lib/features/actions/actionRunner.svelte.ts",
+    "apps/staged/src/lib/features/projects/projectDeleteSafety.test.ts",
+    "apps/staged/src/lib/features/settings/preferences.svelte.ts",
+    "packages/diff-viewer/src/lib/utils/inlineDiff.test.ts",
+    "packages/diff-viewer/src/lib/utils/structuralHeaders.ts"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/block/builderbot/lsp/a62f4a8638b996a9e94afa5e0d7864ff229d82ff",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a62f4a8638b996a9e94afa5e0d7864ff229d82ff.nq.gz",
+    "call_sites": 60046,
+    "import_statements": 1203,
+    "call_targets_resolved": 894,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 5,
+    "implements_clauses": 9,
+    "import_modules_denormalized": 1622,
+    "import_symbols_denormalized": 0,
+    "extends_class_denormalized": 0,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1809
+}

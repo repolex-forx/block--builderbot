@@ -1,0 +1,22 @@
+[2026-11-26T09:06:18Z] === ENRICH ITERATION 1 START | repo=block/builderbot sha=a62f4a86 ===
+[2026-11-26T09:06:18Z] [iter=1] PHASE START: enrich repo=block/builderbot sha=a62f4a86 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a62f4a86-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a62f4a8638b996a9e94afa5e0d7864ff229d82ff.nq.gz
+[2026-11-26T09:06:18Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-26T09:07:20Z] [iter=1] AST store loaded triples=5898700 load_secs=59 mem_mb=1013 MB
+[2026-11-26T09:07:20Z] [iter=1] Step 2: Finding LSP targets mem_mb=1013 MB
+[2026-11-26T09:07:29Z] [iter=1] LSP targets found call_sites=60046 imports=1203 extends=5 implements=9 secs=9
+[2026-11-26T09:07:32Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1013 MB
+[2026-11-26T09:08:12Z] [iter=1] Position index built positions=388407 nodes_with_types=476479 secs=40 mem_mb=1252 MB
+[2026-11-26T09:08:12Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1252 MB already_completed_types=[] already_completed_files=0
+[2026-11-26T09:08:12Z] [iter=1] Resolving target type target_type=call_site count=60046
+[2026-11-26T09:08:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=0 resolved=0 errors=0 current=apps/staged/src/lib/features/settings/preferences.svelte.ts
+[2026-11-26T09:10:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.8 files_done=1 resolved=65 errors=0 current=packages/diff-viewer/src/lib/utils/structuralHeaders.ts
+[2026-11-26T09:11:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.1 files_done=2 resolved=146 errors=0 current=apps/staged/src/lib/features/projects/projectDeleteSafety.test.ts
+[2026-11-26T09:13:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.0 files_done=3 resolved=193 errors=0 current=apps/staged/src/lib/cache.test.ts
+[2026-11-26T09:21:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.9 files_done=4 resolved=446 errors=0 current=packages/diff-viewer/src/lib/utils/inlineDiff.test.ts
+[2026-11-26T09:28:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.7 files_done=5 resolved=661 errors=0 current=apps/staged/src/lib/features/actions/actionRunner.svelte.ts
+[2026-11-26T09:30:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.8 files_done=6 resolved=709 errors=0 current=apps/penpal/frontend/src/components/InstallToolsModal.test.tsx
+[2026-11-26T09:32:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.1 files_done=7 resolved=768 errors=0 current=packages/diff-viewer/src/lib/utils/structuralHeaders.test.ts
+[2026-11-26T09:36:27Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=30.2 files_completed=7 new_files_this_iter=7 mem_mb=1259 MB
+[2026-11-26T09:36:27Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/a62f4a8638b996a9e94afa5e0d7864ff229d82ff.nq.gz triples=10783
+[2026-11-26T09:36:27Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-26T09:36:27Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=1809 elapsed_min=30.2 files_completed=7
